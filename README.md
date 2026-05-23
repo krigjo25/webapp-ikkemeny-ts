@@ -7,6 +7,13 @@
 ## Overview
 IkkeMeny is a functional e-commerce prototype developed as a team collaboration. It simulates a retail environment where users can browse a unique product catalog, manage items in a persistent shopping cart, and toggle between visual themes. The project demonstrates core frontend principles, now supercharged with a modernized build pipeline utilizing TypeScript and modular Sass.
 
+## Tech Stack
+* **Frontend**: HTML5, CSS3, Vanilla JavaScript (Compiled)
+* **Preprocessors**: [TypeScript](https://www.typescriptlang.org/) (Strict Static Typing), [Sass](https://sass-lang.com/) (Indented Syntax)
+* **Build Tools**: Node.js, NPM Scripts
+* **Version Control**: Git (GPG-signed Commits)
+* **Design Systems**: CSS Grid, Flexbox
+
 ## Core Features
 * **Dynamic Shopping Cart**: Sophisticated, strictly-typed logic for adding, removing, and tracking quantities of products like "Vintage Pepsi" and "Slightly Old Apple".
 * **Real-time Calculations**: Automatic updates of total item counts and total price using dedicated calculation functions.
