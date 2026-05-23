@@ -1,0 +1,32 @@
+@use 'variables' as *
+
+.shopping-cart
+  grid-area: cart
+  justify-content: center
+  border: solid 5px
+  border-color: $color-green
+  padding: 5px
+  text-align: center
+  height: auto
+  background-color: $bg-cart
+
+.removeFromCartButton
+  padding: 0.5vh
+  block-size: 4vh
+  inline-size: 11vh
+  color: $color-white
+  background-color: $color-green
+  border-radius: 10%
+
+.upborder
+  border: 5px solid $color-green
+  background-color: white
+  display: grid
+  grid-template-columns: 1700px auto
+  grid-template-areas: 'logo' 'trashcart'
+  padding: 4px
+  align-items: baseline
+
+.trashcart
+  block-size: 1vh
+  inline-size: 1vh

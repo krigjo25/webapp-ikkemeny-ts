@@ -1,0 +1,24 @@
+{
+  "name": "webapp-ikkemeny",
+  "version": "1.0.0",
+  "description": "**A collaborative mock e-commerce platform. Features dynamic cart logic, real-time price calculation, and a toggleable light/dark theme system.**",
+  "main": "index.js",
+  "scripts": {
+    "build": "build:css && build:js",
+    "build:css": "sass assets/sass:assets/css",
+    "build:ts": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krigjo25/webapp-ikkemeny-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/krigjo25/webapp-ikkemeny-js/issues"
+  },
+  "homepage": "https://github.com/krigjo25/webapp-ikkemeny-js#readme"
+}
